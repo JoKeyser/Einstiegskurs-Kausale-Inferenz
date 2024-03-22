@@ -55,7 +55,8 @@ Optional: Um Ihre Änderungen zu verfolgen und zu diesem Projekt beizutragen, be
 ## Modulübersicht
 
 1. An der Weggabelung: Einen Weg gehen - und einen nicht (Potential Outcome und Counterfactual)
-    - [Externe ShinyApp](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_01/)
+    - Interner Link auf Variante als [R-Markdown](Module/Modul_01.Rmd) und als [IPython Notebook](Module/Modul_01.ipynb)
+    - Externer Link auf [ShinyApp](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_01/)
 
 2. Ein Pfeil zeigt die Richtung (Strukturelle kausale Modelle und Kausale Diagramme)
     - [Externe ShinyApp](https://fomshinyapps.shinyapps.io/WWWEKI_Modul_02/)
