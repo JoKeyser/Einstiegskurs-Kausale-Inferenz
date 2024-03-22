@@ -102,7 +102,7 @@ $\color{blue}{Y}$ ist die *Wirkung*, das Ergebnis, also hier das <blue> Gehalt <
 
 Der **individuelle kausale Effekt** $\color{orange}{\Delta}_i$ (griechisch: Delta) der Schulung ergibt sich dann als die Differenz zwischen diesen beiden potenziellen Ergebnissen:
 
-$${\color{orange}{\Delta}}_i = {\color{blue}{Y}}^{\color{green}{X=1}}_i - {\color{blue}{Y}}^{\color{green}{X=0}}_i$$
+$${\color{orange}{\Delta}}_i = {\color{blue}{Y}}_{i}^{{\color{green}{X=1}}} - {\color{blue}{Y}}_{i}^{{\color{green}{X=0}}}$$
 
 Wobei
 
