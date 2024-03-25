@@ -92,19 +92,19 @@ zu definieren.
 
 Wenn Sie vor der Entscheidung stehen: *Nehme ich an der Schulung teil?* gibt es für Ihr Gehalt zwei **potenzielle Ergebnisse (englisch: Potential Outcomes)**:
 
-- ${\color{blue}\text{Gehalt}}$ ohne ${\color{DarkGreen}\text{Schulung}}$: $\color{blue}{Y}^{\color{DarkGreen}{X=0}}$
+- $\color{blue}{\text{Gehalt}}$ ohne $\color{DarkGreen}{\text{Schulung}}$: $\color{blue}{Y}^{\color{DarkGreen}{X=0}}$
 
-- ${\color{blue}\text{Gehalt}}$ mit ${\color{DarkGreen}\text{Schulung}}$: $\color{blue}{Y}^{\color{DarkGreen}{X=1}}$
+- $\color{blue}{\text{Gehalt}}$ mit $\color{DarkGreen}{\text{Schulung}}$: $\color{blue}{Y}^{\color{DarkGreen}{X=1}}$
 
-$\color{blue}{Y}$ ist die *Wirkung*, das Ergebnis, also hier das ${\color{blue}\text{Gehalt}}$.
+$\color{blue}{Y}$ ist die *Wirkung*, das Ergebnis, also hier das $\color{blue}{\text{Gehalt}}$.
 Das hochgestellte $\color{DarkGreen}{X}$ soll symbolisieren für welche Wert der *Ursache* das Ergebnis betrachtet wird.
-Ohne ${\color{DarkGreen}\text{Schulung}}$ nimmt $\color{DarkGreen}{X}$ den Wert 0 an, mit ${\color{DarkGreen}\text{Schulung}}$ den Wert 1.
+Ohne $\color{DarkGreen}{\text{Schulung}}$ nimmt $\color{DarkGreen}{X}$ den Wert 0 an, mit $\color{DarkGreen}{\text{Schulung}}$ den Wert 1.
 
 ![](images/Weggabel.png){width="65%"}
 
 ##
 
-Der **individuelle kausale Effekt** $\color{orange}{\Delta}_i$ (griechisch: Delta) der Schulung ergibt sich dann als die Differenz zwischen diesen beiden potenziellen Ergebnissen:
+Der **individuelle kausale Effekt** ${\color{orange}{\Delta}}_i$ (griechisch: Delta) der Schulung ergibt sich dann als die Differenz zwischen diesen beiden potenziellen Ergebnissen:
 
 $${\color{orange}{\Delta}}_i = {\color{blue}{Y}}_{i}^{{\color{DarkGreen}{X=1}}} - {\color{blue}{Y}}_{i}^{{\color{DarkGreen}{X=0}}}$$
 
@@ -112,9 +112,9 @@ Wobei
 
 - $i$ für die einzelne Beobachtung, hier die einzelne Person, steht;
 
-- ${\color{blue}{Y}}_i$ für das ${\color{blue}\text{Gehalt}}$ von $i$;
+- ${\color{blue}{Y}}_i$ für das $\color{blue}{\text{Gehalt}}$ von $i$;
 
-- $\color{DarkGreen}{X}$ für die Teilnahme an der ${\color{DarkGreen}\text{Schulung}}$; dabei ist $\color{DarkGreen}{X_i=1}$ wenn $i$ teilnimmt und  $\color{DarkGreen}{X_i=0}$ wenn $i$ nicht teilnimmt.
+- $\color{DarkGreen}{X}$ für die Teilnahme an der $\color{DarkGreen}{\text{Schulung}}$; dabei ist $\color{DarkGreen}{X_i=1}$ wenn $i$ teilnimmt und $\color{DarkGreen}{X_i=0}$ wenn $i$ nicht teilnimmt.
 
 
 ## Ein fiktives Beispiel
@@ -194,7 +194,7 @@ Sie sehen: häufig sind die individuellen kausalen Effekte positiv &ndash; sie k
 
 Das fundamentale Problem der kausalen Inferenz ist, dass wir den individuellen kausalen Effekt ${\color{orange}{\Delta}}_i = {\color{blue}{Y}}_{i}^{{\color{DarkGreen}{X=1}}} - {\color{blue}{Y}}_{i}^{{\color{DarkGreen}{X=0}}}$ **nicht** beobachten können.
 Es liegt je Beobachtung $i$ immer nur eines der beiden Potential Outcomes vor:
-Entweder $\color{blue}{Y}^{\color{DarkGreen}{X=1}}$ ($\color{blue}\text{Gehalt}$ mit $\color{DarkGreen}\text{Schulung}$) **oder** $\color{blue}{Y}^{\color{DarkGreen}{X=0}}$ ($\color{blue}\text{Gehalt}$ ohne $\color{DarkGreen}\text{Schulung}$).
+Entweder $\color{blue}{Y}^{\color{DarkGreen}{X=1}}$ ($\color{blue}{\text{Gehalt}}$ mit $\color{DarkGreen}{\text{Schulung}}$) **oder** $\color{blue}{Y}^{\color{DarkGreen}{X=0}}$ ($\color{blue}{\text{Gehalt}}$ ohne $\color{DarkGreen}{\text{Schulung}}$).
 
 - Wenn Person $i$ an der Schulung teilnimmt, liegt uns das Gehalt mit Schulung vor, ${\color{blue}{Y}}_{i}^{{\color{DarkGreen}{X=1}}}$, und nicht ${\color{blue}{Y}}_{i}^{{\color{DarkGreen}{X=0}}}$
 
