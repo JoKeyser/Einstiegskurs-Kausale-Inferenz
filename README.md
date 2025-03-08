@@ -19,7 +19,10 @@ Dieses Projekt ist eine Kopie (ein _Fork_) von <https://github.com/luebby/WWWEKI
 
 - (Einige) HTML-Texte werden in Markdown umgewandelt.
 - (Einige) Diagramme werden in SVG umgewandelt.
-- Die R-Markdown-Dateien (die Grundlage der ShinyApps) werden (auch) in IPython-Notebooks umgewandelt.
+- Die ursprünglichen R-Markdown-Dateien (die Grundlage der ShinyApps) werden zusätzlich als IPython-Notebooks konvertiert.
+    - Die Notebooks (mit Dateiendung `.ipynb`) erlauben, die Ergebnisse des Codes in derselben Datei im Webbrowser darzustellen, und erleichtern ggf. die Verwendung einer anderen Programmiersprache als R.
+    - Die R-Markdown-Dateien (mit Endung `.Rmd`) sollen möglichst unverändert bleiben, für einfache Vergleichbarkeit mit dem ursprünglichen Projekt.
+    - Zwischen den Dateiformaten und  kann dank [Jupytext](https://jupytext.readthedocs.io/) automatisch synchronisiert werden.  
 - Beispieldatensätze werden als lokale CSV-Dateien bereitgestellt.
 
 Eine genauere Aufschlüsselung der Änderungen finden Sie in Datei [CHANGELOG.md](CHANGELOG.md).
@@ -32,20 +35,20 @@ Insbesondere enthält dieses Projekt keine der benoteten Testfragen oder -antwor
 
 ## Installation
 
-Mit [Anaconda](https://anaconda.org/) können Sie alles in einer neuen virtuellen Umgebung mit einem Befehl installieren:
+Mit [Anaconda](https://anaconda.org/) können Sie mit einem Befehl alle benötigten und optionalen Pakete in einer neuen virtuellen Umgebung installieren:
 
-```
-conda create --name meinKI jupyter r-irkernel r-tidyverse r-mosaic r-learnr r-ggthemes
+```shell
+conda create --name meinKI -c conda-forge jupyter jupytext r-irkernel r-tidyverse r-mosaic r-learnr r-ggthemes
 ```
 
 Um das Material auf GitHub oder GitLab usw. zu betrachten wird nur ein Webbrowser benötigt.
 
-Um die IPython-Notebooks (d.h. die Dateien mit der Endung `.ipynb`) auszuführen oder zu ändern, müssen Sie Jupyter (oder einen geeigneten Editor) installieren.
-
-- FIXME: Testen/Erklärung von Ansatz mit Jupytext!
+Um die IPython-Notebooks (Dateien `*.ipynb`) auszuführen oder zu ändern, müssen Sie Jupyter (oder einen geeigneten Editor) installieren.
 
 Sie müssen den `R`-Kernel für Jupyter installieren, um die R-Codezellen ausführen zu können.
 Der Kurs stützt sich auf die R-Pakete `tidyverse` und `mosaic`, `learnr`, `ggthemes`, die ihrerseits zusätzliche Abhängigkeiten mit sich bringen.
+
+Optional: Um das Material zwischen den Formaten R-Markdown und Jupyter-Notebook zu synchronisieren, wird [Jupytext](https://jupytext.readthedocs.io/) verwendet.
 
 Optional: Um die Materialien in PDF-Handouts, Folien oder ein anderes Format zu konvertieren, können Sie [Quarto](https://quarto.org/) installieren (das [Pandoc](https://pandoc.org/) enthält, einen leistungsstarken Konverter, den Sie auch ohne Quarto verwenden können).
 

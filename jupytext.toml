@@ -1,0 +1,2 @@
+# Pair R-Markdown notebooks with ipynb notebooks
+formats = "ipynb,Rmd"
