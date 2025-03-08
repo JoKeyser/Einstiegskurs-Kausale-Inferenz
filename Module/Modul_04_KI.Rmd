@@ -9,10 +9,6 @@ output:
 runtime: shiny_prerendered
 ---
 
-<a href="https://ki-campus.org/">
-<img border="0" alt="KICampusLogo" src="images/KIcampusLogo.png" width="100" height="30" style="float: right">
-</a>
-
 ```{r setup, include=FALSE}
 library(learnr)
 library(knitr)
@@ -376,10 +372,3 @@ question("Welcher Wert beschreibt den (totalen) kausalen Effekt von Lernen (`x`)
 :::{.box}
 Um den (totalen) kausalen Effekt von $X$ auf $Y$ in einer Kette $$X \rightarrow Z \rightarrow Y$$ zu bestimmen, sollte ein Mediator $Z$ **nicht** berücksichtigt werden. Bei fixiertem $Z$ (z.B., wenn die Variable in einer Regression aufgenommen wird) wird der kausale Zusammenhang zwischen $X$ und $Y$ unterbrochen.
 ::: 
-
-## KI-Campus
-
-[Zurück zum Kurs](https://learn.ki-campus.org/courses/7c8012d9-8729-4462-9ad0-be7d71118f37/launch)
-
-
-

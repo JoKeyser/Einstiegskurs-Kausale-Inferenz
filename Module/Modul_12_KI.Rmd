@@ -9,10 +9,6 @@ output:
 runtime: shiny_prerendered
 ---
 
-<a href="https://ki-campus.org/">
-<img border="0" alt="KICampusLogo" src="images/KIcampusLogo.png" width="100" height="30" style="float: right">
-</a>
-
 ```{r setup, include=FALSE}
 library(ggplot2)
 library(ggdag)
@@ -346,8 +342,3 @@ Die Idee der Causal Fusion ist, dass wir trotzdem all diese Datenquellen *in Kom
 *Lesetipp*: 
 
 - Paul Hünermund und Elias Bareinboim, [Causal Inference and Data-Fusion in Econometrics](https://arxiv.org/abs/1912.09104v2)
-
-
-## KI-Campus
-
-[Zurück zum Kurs](https://learn.ki-campus.org/courses/7c8012d9-8729-4462-9ad0-be7d71118f37/launch)

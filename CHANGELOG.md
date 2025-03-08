@@ -15,5 +15,6 @@ Die exakten Änderungen sind den jeweiligen Git-Commits zu entnehmen.
     - Tauschen von Hoch- und Niedrigstellung (mit `^{}` und `_{}`).
     - Farbwechsel von `color{green}` (sehr hell) zu `color{DarkGreen}` (dunkler) für bessere Lesbarkeit und Ähnlichkeit zum KI-Kurs-HTML.
     - Begrenzung der Farbanwendung mithilfe zusätzlicher Gruppierung (mit `{}`).
+- Erwähnung des Löschens von [KI-Campus](https://ki-campus.org/) in README und Löschen der "toten" Links auf KI-Campus.
 - ...
 

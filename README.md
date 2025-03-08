@@ -1,6 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2022 Julia Rohrer, Karsten Lübke
-SPDX-FileContributor: 2024 Johannes Keyser
+SPDX-FileContributor: 2024-2025 Johannes Keyser
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
@@ -9,11 +9,18 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 ## Beschreibung
 
-Dieses Projekt enthält Materialien für den [KI-Campus-Kurs _Was, wie, warum? - Einführungskurs Kausale Inferenz_](https://ki-campus.org/courses/wwweki) von [Dr. Julia Rohrer](https://juliarohrer.com/) (Universität Leipzig) und [Prof. Dr. Karsten Lübke](https://ki-campus.org/node/793) (FOM Hochschule):
+Dieses Projekt enthält Materialien des Kurses _Was, wie, warum? - Einführungskurs Kausale Inferenz_ von [Dr. Julia Rohrer](https://juliarohrer.com/) (Universität Leipzig) und [Prof. Dr. Karsten Lübke](https://ki-campus.org/node/793) (FOM Hochschule).
 
-Die enthaltenen Materialien sollen es Lehrkräften erleichtern, das Kursmaterial für den eigenen Unterricht anzupassen.
+### Hintergrund
 
-Wenn Sie das Material studieren wollen, besuchen Sie am besten den originalen Kurs auf [ki-campus.org/courses/wwweki](https://ki-campus.org/courses/wwweki).
+Zum Studieren des Materials besuchen Sie am besten die ShinyApps der ursprünglichen Kursmaterialen, mit Einstieg unter <https://fomshinyapps.shinyapps.io/WWWEKI_Modul_01/>.
+Die zugehörigen Interview-Videos finden Sie unter <https://wwweki.gitlab.io/interviews/>.
+
+Der Kurs war bis Ende 2024 auf <https://ki-campus.org/> verfügbar, inklusive Prüfungsfragen; dieses Angebot wurde seitens KI-Campus gestoppt.
+
+### Änderungen
+
+Die hier enthaltenen, teilweise modifizierten Materialien sollen es Lehrkräften erleichtern, das Kursmaterial für den eigenen Unterricht anzupassen.
 
 Dieses Projekt ist eine Kopie (ein _Fork_) von <https://github.com/luebby/WWWEKI>, mit folgenden (geplanten) Modifikationen:
 
@@ -26,12 +33,6 @@ Dieses Projekt ist eine Kopie (ein _Fork_) von <https://github.com/luebby/WWWEKI
 - Beispieldatensätze werden als lokale CSV-Dateien bereitgestellt.
 
 Eine genauere Aufschlüsselung der Änderungen finden Sie in Datei [CHANGELOG.md](CHANGELOG.md).
-
-### Was dies nicht ist
-
-Die Lernerfahrung des Kurses auf KI-Campus soll gewährleistet bleiben:
-Insbesondere enthält dieses Projekt keine der benoteten Testfragen oder -antworten, da diese im Originalkurs nur unter Zeitdruck zugänglich sind und das Kurszertifikat von ihnen abhängt.
-
 
 ## Installation
 
@@ -97,8 +98,7 @@ Optional: Um Ihre Änderungen zu verfolgen und zu diesem Projekt beizutragen, be
 
 ## Weiterführende Links
 
-- Die deutsche Kursvariante auf KI-Campus: <https://ki-campus.org/courses/wwweki>
-- Die englische Kursvariante auf KI-Campus: <https://ki-campus.org/courses/whwici>
+- Eine englische Kursvariante ist verfügbar unter <https://github.com/luebby/WWWEKI-EN>.
 - Details siehe z.B. [FOM forscht Wissenschaftsblog](https://www.fom-blog.de/2021/07/einstiegskurs-kausale-inferenz-wird-gemeinsam-von-der-universitaet-leipzig-und-der-fom-hochschule-mit-einer-foerderung-durch-das-bmbf-entwickelt/).
  
 **Videos**:
@@ -122,6 +122,49 @@ Bitte melden Sie Fehler, Unklarheiten und Verbesserungsvorschläge beim original
 
 ## Förderung
 
-Das Vorhaben *Was, wie, warum? Einstiegskurs Kausale Inferenz (WWWEKI)* wird mit Mitteln des Bundesministeriums für Bildung und Forschung unter dem Förderkennzeichen 16DHBQP040 gefördert.
+Das Vorhaben *Was, wie, warum? Einstiegskurs Kausale Inferenz (WWWEKI)* wurde mit Mitteln des Bundesministeriums für Bildung und Forschung unter dem Förderkennzeichen `16DHBQP040` gefördert.
+
+### Hintergrund
+
+Im Rahmen der Kausalen Inferenz sind in den letzten Jahren sowohl in Wissenschaft als auch in der Praxis beachtliche Fortschritte erzielt worden.
+
+Gleichzeitig wird das Thema Kausalität in vielen Forschungsfeldern entweder explizit ausgeklammert oder ignoriert.
+Dies führt zu vielfältigen Problemen in der Datenanalyse (z. B. werden Quellen von Bias oft ignoriert) und es kommt zu einem Mismatch zwischen der gewählten Methode und der Frage, die eigentlich beantwortet werden soll (z. B. werden rein prädiktive Methoden verwendet, um letztlich kausale Fragen zu beantworten).
+Das gilt auch für den Bereich der Künstlichen Intelligenz der von einem stärkeren Fokus auf Kausale Inferenz profitieren würde.
+
+### Zielsetzung
+
+Schon länger wird gefordert, dass das Thema Kausale Inferenz eine zentrale Rolle in den Lehrplänen spielen sollte.
+
+Englischsprachig gibt es diverse (erfolgreiche) MOOCs zum Thema Kausale Inferenz, z. B. von edX, Udemy oder coursera.
+Auch stehen diverse Bücher zu unterschiedlichen Anwendungsfeldern zum Einstieg zur Verfügung, so z. B. von Neal (2020): “Introduction to Causal Inference from a Machine Learning Perspective”, oder Peters, Janzing & Schölkopf (2017): “Elements of Causal Inference”.
+Nicht zuletzt aufgrund der Aktualität des Themas gibt es nach bestem Wissen der Antragsteller:innen jedoch kein vergleichbares deutschsprachiges Angebot.
+Diese Lücke soll der Kurs schließen.
+
+### Methodik
+
+Die ausgewählten Inhalte orientieren sich an Cummiskey & Lübke (2022):
+
+- Elementare Grundlagen von Wahrscheinlichkeit und Statistik, insbesondere bedingte Wahrscheinlichkeiten und Unabhängigkeit
+- Potential Outcome und Counterfactual
+- Kausale Effekte und Verzerrungen (letztere auch bei rein deskriptiven Beschreibungen, z. B. Selection/Survivor Bias)
+- Directed Acyclic Graphs als Mittel zur Beschreibung des datengenerierenden Prozesses
+- Unterschiedliche Ebenen der Datenanwendung und ihre Voraussetzungen
+
+Um den Kurs allgemein interessant zu gestalten, werden die Inhalte entlang von alltäglichen Beispielen motiviert und erklärt werden.
+Themenbezogene kurze Videos, aber auch Animationen, sollen den Lernprozess unterstützen.
+Im Rahmen des MOOCs werden dabei verschiedene offene und geschlossene Fragen inklusive Rückmeldung integriert.
+
+### Publikationen
+
+- Lübke, K., Gehrke, M., Horst, J., & Szepannek, G. (2020).
+  Why we should teach causal inference: Examples in linear regression with simulated data.
+  Journal of Statistics Education, 28(2), 133-139.
+- Rohrer, J. M. (2018).
+  Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data.
+  Advances in Methods and Practices in Psychological Science, 1(1), 27–42.
+- Cummiskey, K., & Lübke, K. (2022).
+  Causality in Data Science Education.
+  Submitted.
 
 ![Logo BMBF](/images/csm_Logo-BMBF.jpg)

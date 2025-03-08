@@ -9,10 +9,6 @@ output:
 runtime: shiny_prerendered
 ---
 
-<a href="https://ki-campus.org/">
-<img border="0" alt="KICampusLogo" src="images/KIcampusLogo.png" width="100" height="30" style="float: right">
-</a>
-
 ```{r setup, include=FALSE}
 library(learnr)
 library(knitr)
@@ -260,8 +256,3 @@ Wird $Z$ berücksichtigt, wird ein scheinbarer Zusammenhang zwischen $X$ und $Y$
 Beispielsweise sollte man in einem linearen Modell nicht $Z$ als erklärende Variable aufnehmen.
 Man sollte auch nicht die Daten anhand von $Z$ in Gruppen einteilen, die man dann separat analysiert -- auch das verzerrt Zusammenhänge.
 ::: 
-
-
-## KI-Campus
-
-[Zurück zum Kurs](https://learn.ki-campus.org/courses/7c8012d9-8729-4462-9ad0-be7d71118f37/launch)

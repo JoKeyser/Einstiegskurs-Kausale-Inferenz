@@ -9,10 +9,6 @@ output:
 runtime: shiny_prerendered
 ---
 
-<a href="https://ki-campus.org/">
-<img border="0" alt="KICampusLogo" src="images/KIcampusLogo.png" width="100" height="30" style="float: right">
-</a>
-
 ```{r setup, include=FALSE}
 library(ggplot2)
 library(ggdag)
@@ -318,8 +314,3 @@ Dieses Modul orientiert sich am Projekt [Causal Inference in Introductory Statis
 Siehe auch Cummiskey, K., Adams, B,. Pleuss, J.,  Turner, D., Clark, N. \& Watts, K. (2020). *Causal Inference in Introductory Statistics Courses*, Journal of Statistics Education, [https://doi.org/10.1080/10691898.2020.1713936](https://doi.org/10.1080/10691898.2020.1713936).
 
 Datengrundlage ist der Artikel von Kahn, M. (2005). *An exhalent problem for teaching statistics*. Journal of Statistics Education, 13(2), [https://doi.org/10.1080/10691898.2005.11910559](https://doi.org/10.1080/10691898.2005.11910559).
-
-
-## KI-Campus
-
-[Zurück zum Kurs](https://learn.ki-campus.org/courses/7c8012d9-8729-4462-9ad0-be7d71118f37/launch)

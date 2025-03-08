@@ -9,10 +9,6 @@ output:
 runtime: shiny_prerendered
 ---
 
-<a href="https://ki-campus.org/">
-<img border="0" alt="KICampusLogo" src="images/KIcampusLogo.png" width="100" height="30" style="float: right">
-</a>
-
 ```{r setup, include=FALSE}
 library(learnr)
 library(knitr)
@@ -199,8 +195,3 @@ question("Sind die Wahrscheinlichkeiten für $y$ bei Assoziation $Pr(y|x)$ und I
          incorrect = random_encouragement()
          )
 ```
-
-## KI-Campus
-
-[Zurück zum Kurs](https://learn.ki-campus.org/courses/7c8012d9-8729-4462-9ad0-be7d71118f37/launch)
-

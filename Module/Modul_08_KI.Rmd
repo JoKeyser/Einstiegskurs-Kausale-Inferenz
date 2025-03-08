@@ -9,10 +9,6 @@ output:
 runtime: shiny_prerendered
 ---
 
-<a href="https://ki-campus.org/">
-<img border="0" alt="KICampusLogo" src="images/KIcampusLogo.png" width="100" height="30" style="float: right">
-</a>
-
 ```{r setup, include=FALSE}
 library(learnr)
 library(knitr)
@@ -597,12 +593,3 @@ Richard McElreath weist in seinem Vortrag [Causal Thinking for Descriptive Resea
 
 In diesem Modul haben Sie statistische Methoden kennengelernt, wie Sie Datenerhebung, wenn möglich, optimal gestalten können, um in (4) keine Abweichungen festzustellen. Optimalerweise haben wir eine Zufallsstichprobe; optimalerweise gibt es eine zufällige Zuordnung zu experimentellen Gruppen.
 Leider gelingt das in der Praxis nicht immer; in manchen Situationen ist es schlicht nicht möglich.
-
-
-
-## KI-Campus
-
-[Zurück zum Kurs](https://learn.ki-campus.org/courses/7c8012d9-8729-4462-9ad0-be7d71118f37/launch)
-
-
-
