@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2022 Julia Rohrer, Karsten Lübke
+SPDX-FileCopyrightText: 2022-2025 Julia Rohrer, Karsten Lübke
 SPDX-FileContributor: 2024-2025 Johannes Keyser
 
 SPDX-License-Identifier: CC-BY-SA-4.0
@@ -9,7 +9,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 ## Beschreibung
 
-Dieses Projekt enthält Materialien des Kurses _Was, wie, warum? - Einführungskurs Kausale Inferenz_ von [Dr. Julia Rohrer](https://juliarohrer.com/) (Universität Leipzig) und [Prof. Dr. Karsten Lübke](https://ki-campus.org/node/793) (FOM Hochschule).
+Dieses Projekt enthält Materialien des Kurses _Was, wie, warum? - Einführungskurs Kausale Inferenz_ von [Dr. Julia Rohrer](https://juliarohrer.com/) und [Prof. Dr. Karsten Lübke](https://ki-campus.org/node/793).
 
 Zum Studieren des Materials besuchen Sie am besten die ShinyApps der ursprünglichen Kursmaterialen, siehe unter [Modulübersicht](#modulübersicht).
 
@@ -19,9 +19,9 @@ Die Interviews und Tutorials sind teilweise inhaltlich aufeinander abgestimmt, k
 
 ### Hintergrund
 
-Der Kurs war bis Ende 2024 auf <https://ki-campus.org/> verfügbar, inklusive Prüfungsfragen; dieses Angebot wurde seitens KI-Campus beendet.
-
 Dieser Kurs zum Einstieg in die Kausalinferenz wurde ursprünglich entwickelt als MOOC für den [KI-Campus](https://ki-campus.org/) in Kooperation zwischen Karsten Lübke (FOM Hochschule) und Julia Rohrer (Projektleitung, Universität Leipzig).
+
+Weitere Hintergrundinformationen in Abschnitten [Weiterführende Links](#weiterführende-links) und [Förderung](#förderung).
 
 ### Änderungen
 
@@ -105,9 +105,6 @@ Optional: Um Ihre Änderungen zu verfolgen und zu diesem Projekt beizutragen, be
 
 - Eine englische Kursvariante ist verfügbar unter <https://github.com/luebby/WWWEKI-EN>.
 - Für weitere Hintergründe zum Kurs siehe [FOM forscht Wissenschaftsblog](https://www.fom-blog.de/2021/07/einstiegskurs-kausale-inferenz-wird-gemeinsam-von-der-universitaet-leipzig-und-der-fom-hochschule-mit-einer-foerderung-durch-das-bmbf-entwickelt/).
-
-### Video-Interviews
-
 - Die begleitenden Interviews mit angesehenen Expert:innen aus unterschiedlichen Fachgebieten, die ihre kausalen Fragestellungen und Lösungsansätze vorstellen, finden Sie unter <https://wwweki.gitlab.io/interviews/>.
 
 ### Literatur
